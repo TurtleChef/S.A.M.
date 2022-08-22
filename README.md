@@ -1,7 +1,7 @@
 # S.A.M.
 A simple Python chat bot with a simple interface. Ask S.A.M. a question and S.A.M. will answer. Questions are very limited for now and a list of valid questions can be found below.
 
-SAM starts by asking for your name, if you're name is also Sam you'll get a special message :)
+SAM starts by asking for your name, if your name is also Sam you'll get a special message :)
 
 Questions that you can ask:
 How old are you?
