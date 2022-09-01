@@ -1,4 +1,4 @@
-######SAM GUI, kind of. Unable to ask follow-ups. He's an answering machine
+######SAM GUI, now with follow-up questions from SAM
 from tkinter import *
 import tkinter as tk
 from preferences import *
@@ -8,20 +8,6 @@ root = tk.Tk()
 root.title("S.A.M.")
 root.geometry("500x500")
 root.resizable(width=FALSE, height=FALSE)
-
-####Menus are dumb, might use these later though####
-###main_menu = Menu(root)
-#Sub-menu
-###file_menu = Menu(root)
-#Sub-menu commands
-###file_menu.add_command(label="New..")
-###file_menu.add_command(label="Save As..")
-###file_menu.add_command(label="Exit")
-###main_menu.add_cascade(label="File", menu=file_menu)
-#Main menu options
-###main_menu.add_command(label="Edit")
-###main_menu.add_command(label="Quit")
-###root.config(menu=main_menu)
 
 #Chat window
 chatWindow = Text(root, wrap=WORD, bd=1, bg="white", width="50", height="8", font=("Arial", 23), foreground="#1338BE")
